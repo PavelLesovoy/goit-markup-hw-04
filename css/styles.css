@@ -48,6 +48,7 @@ address {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border: 1px solid #ECECEC;
 }
 
 .container {
@@ -145,15 +146,13 @@ address {
 
 .main-section {
   background: #2f303a;
-  width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .container-main-section {
-  margin-left: 452px;
-  padding-top: 106px;
 
 }
 
@@ -162,6 +161,7 @@ address {
   height: 120px;
   left: 452px;
   top: 280px;
+  margin-left: 238px;
   margin-bottom: 30px;
   font-family: 'Roboto';
   font-style: normal;
@@ -181,7 +181,7 @@ address {
   min-width: 200px;
   padding: 10px 32px;
   border-radius: 4px;
-  margin-left: 248px;
+  margin-left: 485px;
   background-color: #2196f3;
   font-family: "Roboto";
   font-style: normal;
@@ -203,14 +203,12 @@ address {
 }
 
 .second-section {
-  width: 1600px;
-  height: 290px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .container-second-section {
-  margin-left: 200px;
+
 
 }
 
@@ -254,14 +252,12 @@ address {
 }
 
 .third-section {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .container-third-section {
-  margin-left: 200px;
-  margin-right: 200px;
+
 }
 
 .about-us {
@@ -292,16 +288,13 @@ address {
 }
 
 .fourth-section {
-  width: 1600px;
-  height: 648px;
   margin-left: auto;
   margin-right: auto;
   background-color: #F5F4FA;
 }
 
 .container-fourth-section {
-  margin-left: 200px;
-  margin-right: 200px;
+
 }
 
 .our-team {
@@ -363,17 +356,13 @@ address {
 }
 
 .footer {
-  width: 1600px;
-  height: 252px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
 }
 
 .footer-container {
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-top: 60px;
+
 }
 
 .logo-footer {
@@ -442,20 +431,18 @@ address {
 }
 
 .portfolio-section{
-  width: 1600px;
-  height: 1548px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 .portfolio-btn-container{
-margin-bottom: 50px;
-margin-left: 480px;
+
 }
 
 .portfolio-btn-list{
   display: flex;
   align-items: center;
+  margin-bottom: 50px;
+  margin-left: 280px;
 }
 
 .portfolio-btn-list-item:not(:last-child){
@@ -489,8 +476,7 @@ margin-left: 480px;
 }
 
 .portfolio-department-container{
-  width: 1200px;
-  height: 1310px;
+
 }
 
 .portfolio-department-list{
