@@ -191,6 +191,7 @@ address {
   border-radius: 4px;
   margin-left: 485px;
   background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -218,6 +219,22 @@ address {
 .container-second-section {
 
 
+}
+
+.second-section-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.peculiarities-list-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
 }
 
 .peculiarities-list {
@@ -336,6 +353,8 @@ address {
   border-radius: 0px 0px 4px 4px;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .team-members {
@@ -361,15 +380,84 @@ address {
   letter-spacing: 0.03em;
 
   color: #757575;
+  margin-bottom: 16px;
 }
 
 .social-list{
   display: flex;
+  justify-content: space-between;
 }
 
 .social-list-link{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
 }
+
+.social-list-icon {
+  fill: #AFB1B8;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #2196f3;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #ffffff;
+}
+
+.clients-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-item{
+
+}
+
+.clients-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.clients-logo{
+fill: #AFB1B8;
+}
+
+.clients-list-link:hover, 
+.clients-list-link:focus {
+  border-color: #2196f3;
+}
+
+.clients-list-link:hover .clients-logo,
+.clients-list-link:focus .clients-logo {
+  fill: #2196f3;
+}
+
+
 
 .footer {
   padding-top: 60px;
