@@ -239,10 +239,9 @@ address {
 
 .container-second-section {
 
-
 }
 
-.peculiarities-list-div{
+.peculiarities-list-div {
   display: flex;
   align-items: center;
   justify-content: center;
